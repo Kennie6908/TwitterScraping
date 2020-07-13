@@ -12,7 +12,7 @@ downloaded at https://pypi.org/project/tweet-preprocessor/ . This returns a csv 
 
 3. TweepyStreamer can listen to a desired key word using Tweepy.stream, and will print them out. Not much effort was put in here, future ideas can include using tweet preprocessor or live
 sentiment analysis that flags tweets based on extreme polarity. !! This is a cool idea !! 
-Heads up, this one might be buggy since I struggled with this one. 
+Heads up, this one might be buggy since I struggled with this one. If anyone has any suggestions or tips, I'm all ears. 
 
 4. ActualTweepyScraper is what I mostly focused on. It uses pandas, tweet preprocessor, and the textblob sentiment analysis modules, so have those ready for import. This will return a 
 csv file, with all the tweets, the polarity and subjectivity score, location, username, likes, retweets, and date. All returned nicely with appropriate headers. 
