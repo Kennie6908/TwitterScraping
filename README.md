@@ -2,7 +2,7 @@
 
 Before using Tweepy files, make sure you have a Twitter dev account and you take the consumer and access tokens and edit them in the files. 
 
-4 files here. 
+4 files here. Running on Python 3.8
 
 1. tweepygeneral is just a list of things you can do with tweepy. Mostly just a reference file for me, otherwise documentation can be found at http://docs.tweepy.org/en/latest/ . 
 
@@ -11,7 +11,8 @@ Tweepy seems to have more features from its access to a Twitter dev account, so 
 downloaded at https://pypi.org/project/tweet-preprocessor/ . This returns a csv file. 
 
 3. TweepyStreamer can listen to a desired key word using Tweepy.stream, and will print them out. Not much effort was put in here, future ideas can include using tweet preprocessor or live
-sentiment analysis that flags tweets based on extreme polarity. !! This is a cool idea !!
+sentiment analysis that flags tweets based on extreme polarity. !! This is a cool idea !! 
+Heads up, this one might be buggy since I struggled with this one. 
 
 4. ActualTweepyScraper is what I mostly focused on. It uses pandas, tweet preprocessor, and the textblob sentiment analysis modules, so have those ready for import. This will return a 
 csv file, with all the tweets, the polarity and subjectivity score, location, username, likes, retweets, and date. All returned nicely with appropriate headers. 
